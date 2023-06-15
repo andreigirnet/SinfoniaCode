@@ -1,0 +1,149 @@
+.problemsTextContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    row-gap: 30px;
+}
+.problemsSection{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 200px;
+}
+.problemsText{
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+}
+.problemsList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.problemListContainer{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 139px;
+}
+.problemItem{
+    width: 25%;
+    height: 170px;
+}
+.firstProblemItemRow{
+    display: flex;
+    justify-content: end;
+}
+.problemItemText{
+    margin-top: 50px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.boldText{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+.textLink{
+    font-weight: 600;
+    color: var(--violet);
+}
+.lastProblemItemRow{
+    display: none;
+}
+.elipseProblems{
+    width: 700px;
+    height: 700px;
+    background: #30d9d9;
+    position: absolute;
+    bottom: -200px;
+    right: -144px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .problemsText{
+        width: 90%;
+    }
+    .problemListContainer{
+        flex-direction: column;
+    }
+    .problemItem{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .problemItemText{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .lock{
+        display: flex;
+        align-items: center;
+    }
+    .problemListContainer{
+        width: 90%;
+    }
+    .firstProblemItemRow{
+        display: none;
+    }
+    .lastProblemItemRow{
+        display: flex;
+        align-items: start;
+        position: relative;
+    }
+    .lastProblemItemRow img{
+        position: absolute;
+        top: -25px;
+        right: -20px;
+    }
+    .elipseProblems{
+        filter: blur(170px);
+        width: 351px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .problemsText{
+        width: 90%;
+    }
+    .problemListContainer{
+        flex-direction: column;
+    }
+    .problemItem{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .problemItemText{
+        margin-top: 0px;
+        text-align: center;
+    }
+    .lock{
+        display: flex;
+        align-items: center;
+    }
+    .problemListContainer{
+        width: 90%;
+    }
+    .firstProblemItemRow{
+        display: none;
+    }
+    .lastProblemItemRow{
+        display: flex;
+        align-items: start;
+        position: relative;
+    }
+    .lastProblemItemRow img{
+        position: absolute;
+        top: -25px;
+        right: -20px;
+    }
+    .elipseProblems{
+        filter: blur(170px);
+        width: 351px;
+    }
+}

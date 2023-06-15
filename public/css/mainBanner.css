@@ -1,0 +1,196 @@
+.mainBanner{
+    width: 100%;
+    height: 724px;
+    background: #001343;
+    position: relative;
+    overflow: hidden;
+}
+.navBar{
+    padding: 12px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100vw;
+    box-sizing: border-box;
+    backdrop-filter: blur(90px);
+}
+.menuNavRight{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    column-gap: 30px;
+    cursor: pointer;
+}
+.menuitemDrop{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    column-gap: 5px;
+}
+.downArrow{
+    margin-top: -5px;
+}
+.navButton{
+    border: 1px solid white;
+    padding: 12px 20px;
+}
+.elipseMainBanner{
+    width: 700px;
+    height: 700px;
+    background: var(--violet);
+    position: absolute;
+    bottom: -200px;
+    right: -144px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+.bannerContentContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 724px;
+}
+.bannerLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    position: relative;
+    z-index: 3;
+}
+.bannerTitle{
+    font-family: 'Mazzard', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.bannerRight{
+    position: relative;
+    width: 20%;
+}
+.overflowImg{
+    position: absolute;
+    top: 142px;
+    right: 120px;
+    z-index: 2;
+}
+.text{
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.bannerButtoonContainer{
+    display: flex;
+    width: 250px;
+    cursor: pointer;
+}
+.leftButtonBanner{
+    padding: 16px 5px 16px 20px;
+    width: 80%;
+    background: var(--violet);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.rightButtonBanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--lightBlue);
+    width: 30%;
+}
+.mobilePhone{
+    display: none;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .overflowImg{
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+    }
+    .elipseMainBanner{
+        filter: blur(15px);
+        border-radius: 0px;
+        height: 500px;
+        width: 100%;
+    }
+    .bannerTitle{
+        font-size: 35px;
+    }
+    .bannerLeft{
+        z-index: 5;
+    }
+    .bannerContentContainer{
+        flex-direction: column;
+    }
+    .bannerLeft{
+        width: 90%;
+    }
+    .bannerText{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .overflowImg{
+       display: none;
+    }
+    .elipseMainBanner{
+        border-radius: 0px;
+        z-index: 5;
+        opacity: 1;
+        height: 700px;
+        background: var(--darkBlue);
+        filter: blur(64px);
+    }
+    .bannerTitle{
+        font-size: 35px;
+    }
+    .bannerLeft{
+        z-index: 5;
+    }
+    .bannerContentContainer{
+        flex-direction: column;
+        position: relative;
+       margin-top: 100px;
+        height: 900px;
+    }
+    .bannerLeft{
+        width: 90%;
+    }
+    .bannerText{
+        font-size: 16px;
+    }
+    .mobilePhone{
+        display: flex;
+        position: absolute;
+        bottom: -150px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .menuitem{
+        display: none;
+    }
+    .menuitemDrop{
+        display: none;
+    }
+    .menuNavRight{
+        column-gap: 25px;
+    }
+    .navBar{
+        padding: 12px 10px;
+    }
+    .logo{
+        width: 120px;
+    }
+    .mainBanner{
+        height: 900px;
+    }
+}

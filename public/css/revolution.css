@@ -1,0 +1,83 @@
+.revolutionSection{
+    margin-top: 240px;
+    background: var(--darkBlue);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.upperTitleDark{
+    color: white;
+}
+.revolutionContainer{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+    z-index: 6;
+}
+.textContainer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.revolutionText{
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 40%;
+    text-align: center;
+}
+.revAction{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.revButton{
+    padding: 16px 20px;
+    background: var(--violet);
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.elipseMainBannerRev{
+    width: 700px;
+    height: 700px;
+    background: var(--violet);
+    position: absolute;
+    bottom: -200px;
+    right: -144px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .revolutionText{
+        width: 90%;
+    }
+    .elipseMainBannerRev{
+        filter: blur(70px);
+        border-radius: 0;
+        height: 500px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .revolutionText{
+        width: 90%;
+    }
+    .upperTitleDark{
+        text-align: center;
+    }
+    .elipseMainBannerRev{
+        filter: blur(70px);
+        border-radius: 0;
+        height: 500px;
+        width: 100%;
+    }
+}

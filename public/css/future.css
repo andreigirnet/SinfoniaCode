@@ -1,0 +1,96 @@
+.futureSection{
+    width: 100%;
+}
+.futureContent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.futureInnerContent{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.badgeL{
+    width: 100%;
+    display: flex;
+    height: 363px;
+}
+.badgeR{
+    width: 100%;
+    display: flex;
+    height: 363px;
+    justify-content: flex-end;
+}
+.leftBadge{
+    width: 85%;
+    background: var(--darkBlue);
+    position: relative;
+    height: 363px;
+    display: flex;
+}
+.rightBadge{
+    width: 85%;
+    background: var(--darkBlue);
+    position: relative;
+    height: 363px;
+}
+.elipseFuture{
+    width: 440px;
+    height: 440px;
+    background: var(--violet);
+    position: absolute;
+    bottom: 0px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+.elipseFutureRight{
+    width: 440px;
+    height: 440px;
+    background: var(--violet);
+    position: absolute;
+    right: 0px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+.futureImg{
+    position: relative;
+    z-index: 7;
+}
+.futureInnerItem{
+    display: flex;
+    width: 80%;
+    height: 363px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 76px;
+    column-gap: 76px;
+}
+.futureInnerItemRight{
+    display: flex;
+    width: 80%;
+    height: 363px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 76px;
+    column-gap: 76px;
+    flex-direction: row-reverse;
+}
+.rightInnerContentFuture{
+    display: flex;
+    flex-direction: column;
+}
+.futureTitleContent{
+    color: var(--violet);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    width: 80%;
+}
+.futureInnerText{
+    font-family: "Poppins", sans-serif;
+    color: white;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Mazzard';
+    src: url('/public/fonts/mazzard/MazzardH-Black.otf') format('otf');
+    /* Add additional font formats if available, such as 'ttf' or 'svg' */
+}
+*{
+    margin:0;
+    padding: 0;
+    --violet: #6B38FE;
+    --darkBlue: #001343;
+    --lightBlue: #30d9d9;
+}
+.title{
+    font-family: 'Mazzard', sans-serif;
+}
+.smallText{
+    font-family: 'Poppins', sans-serif;
+}
+.buttonPrimary{
+    padding: 16px 20px;
+    background: var(--violet);
+    color: white;
+    width: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
