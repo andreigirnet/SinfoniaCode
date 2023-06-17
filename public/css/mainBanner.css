@@ -193,4 +193,7 @@
     .mainBanner{
         height: 900px;
     }
+    .mobilePhone{
+        width: 95%;
+    }
 }

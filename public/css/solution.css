@@ -130,4 +130,10 @@
         align-items: center;
         row-gap: 20px;
     }
+    .solImg{
+        width: 100%;
+    }
+    .lowerLeftImagesSolution{
+        width: 100%;
+    }
 }

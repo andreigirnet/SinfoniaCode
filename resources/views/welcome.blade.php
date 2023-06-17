@@ -12,6 +12,14 @@
         <link rel="stylesheet" href="{{asset('css/problems.css')}}">
         <link rel="stylesheet" href="{{asset('css/solution.css')}}">
         <link rel="stylesheet" href="{{asset('css/future.css')}}">
+        <link rel="stylesheet" href="{{asset('css/model.css')}}">
+        <link rel="stylesheet" href="{{asset('css/competition.css')}}">
+        <link rel="stylesheet" href="{{asset('css/valuation.css')}}">
+        <link rel="stylesheet" href="{{asset('css/tradition.css')}}">
+        <link rel="stylesheet" href="{{asset('css/salary.css')}}">
+        <link rel="stylesheet" href="{{asset('css/early.css')}}">
+        <link rel="stylesheet" href="{{asset('css/warrant.css')}}">
+        <link rel="stylesheet" href="{{asset('css/ceo.css')}}">
     </head>
     <body>
         <section class="mainBanner">
@@ -236,7 +244,7 @@
                         </p>
                     </div>
                     <div class="upperRightSolution">
-                        <img src="{{asset('images/solutionPhone.png')}}" alt="">
+                        <img src="{{asset('images/solutionPhone.png')}}" class="solImg" alt="">
                     </div>
                 </div>
                 <div class="lowerContainerSolution">
@@ -323,6 +331,330 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="modelSection">
+            <div class="modelContainer">
+                <div class="investTextContainer">
+                    <div class="investText">Our Model</div>
+                </div>
+                <div class="titleContainer">
+                    <div class="upperTitle">The Columbian</div>
+                    <div class="lowerGradientTitle">Crypto Market Opportunity</div>
+                </div>
+                <div class="modelContent">
+                    <div class="leftModel">
+                        <div class="modelItem">
+                            <div class="modelItemTitle">
+                                <div class="futureTitleContent">Develop a cutting-edge crypto exchange platform</div>
+                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            </div>
+                            <div class="modelText">Continuously outfit the cryptocurrency exchange platform with the latest financial infrastructure and solutions and the most profitable investment services and products in the industry. </div>
+                        </div>
+                        <div class="modelItem">
+                            <div class="modelItemTitle">
+                                <div class="futureTitleContent">Full reserved banking system</div>
+                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            </div>
+                            <div class="modelText">Because cryptocurrencies and digital assets are not backed by a single government. Our goal is to implement a 1:1 reserved banking system on our platform that holds reserves equal to 100% of deposit liabilities to protect investors rather than using those deposits. Overall, the system promotes greater security, transparency, stability, and liquidity for the Sinfonia Global Exchange platform.</div>
+                        </div>
+                        <div class="modelItem">
+                            <div class="modelItemTitle">
+                                <div class="futureTitleContent">Develop a cutting-edge crypto exchange platform</div>
+                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            </div>
+                            <div class="modelText">Continuously outfit the cryptocurrency exchange platform with the latest financial infrastructure and solutions and the most profitable investment services and products in the industry. </div>
+                        </div>
+                        <div class="modelItem">
+                            <div class="modelItemTitle">
+                                <div class="futureTitleContent">Reinvest</div>
+                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            </div>
+                            <div class="modelText">Reinvest cash flow into the business to expand operations, acquire more technology, and continuously develop our exchange infrastructure. For the platform to stay competitive in a rapidly evolving market. Once we have refined our internal software, we'll explore other expansion goals to reduce operation costs and risk.</div>
+                        </div>
+                    </div>
+                    <div class="rightModel">
+                        <div class="imgModel">
+                            <img src="{{asset('images/cryptoIcon.png')}}" alt="">
+                        </div>
+                        <div class="modelItem">
+                            <div class="modelItemTitle">
+                                <div class="futureTitleContent">Maintain impeccable compliance standards</div>
+                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            </div>
+                            <div class="modelText">Our goal is to maintain financial compliance with Colombian financial regulators and meet regulatory obligations and laws to prevent inconvenience in the Sinfonia Global Exchange's platform operations to maximize revenue growth. Additionally, guarantees a solid, safe, and open platform that safeguards investors’ interests and averts market failures. </div>
+                        </div>
+                        <div class="modelItem">
+                            <div class="modelItemTitle">
+                                <div class="futureTitleContent">Resonable fees</div>
+                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            </div>
+                            <div class="modelText">We work hard to offer excellent customer support & service, and to provide competitive, transparent, and reasonable fees. Our goal is to recapture our original investment, ideally in full, while gaining market share and building a sustainable business without imposing sizable transaction fees on users.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="competitionSection">
+            <div class="competitionContainer">
+                <div class="competitionLeft">
+                    <div class="investText">Our Model</div>
+                    <div class="titleContainerCompetition">
+                        <div class="lowerGradientTitle">Competitors</div>
+                    </div>
+                    <div class="competitionContent">
+                        <div class="competitionItem">
+                            <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            <div class="competitionText">Players on the international cryptocurrency exchange markets compete with Sinfonia Global Exchange. </div>
+                        </div>
+                        <div class="competitionItem">
+                            <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
+                            <div class="competitionText">Players on the international cryptocurrency exchange markets compete with Sinfonia Global Exchange. </div>
+                        </div>
+                        <div class="actionCompetition">
+                            <div class="boldText">Interested in our solutions?</div>
+                            <div class="competitionButton">Contact Us Now And Check</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="competitionRight">
+                    <div class="rightContentContainer">
+                        <div class="rightCompetitionItem">
+                            <img src="{{asset('images/binanceLogo.png')}}" alt="">
+                            <div class="competitionTextWhite">With over USD $300 billion in valuations (as of 2023), Binance is one of the world's largest cryptocurrency exchanges that simplifies the buying and selling process of crypto/digital assets through software. Since we are focused on being regulated, which ensures transparency, security, and responsibility, we think we can provide investors with greater value.
+                                <br><br>
+                                Our strategy will enable us to develop cutting-edge projects without being concerned with legal requirements that restrict our capacity to optimize returns, first for our own use to increase efficiency.
+                            </div>
+                        </div>
+                        <div class="rightCompetitionItem">
+                            <img src="{{asset('images/coinBaseLogo.png')}}" alt="">
+                            <div class="competitionTextWhite">With over USD $300 billion in valuations (as of 2023), Binance is one of the world's largest cryptocurrency exchanges that simplifies the buying and selling process of crypto/digital assets through software. Since we are focused on being regulated, which ensures transparency, security, and responsibility, we think we can provide investors with greater value.
+                                <br><br>
+                                Our strategy will enable us to develop cutting-edge projects without being concerned with legal requirements that restrict our capacity to optimize returns, first for our own use to increase efficiency.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="actionCompetitionMobile">
+                    <div class="boldText">Interested in our solutions?</div>
+                    <div class="competitionButton">Contact Us Now And Check</div>
+                </div>
+            </div>
+        </section>
+        <section class="valuationSection">
+            <div class="investTextContainer">
+                <div class="investText">Model</div>
+            </div>
+            <div class="titleContainerValuation">
+                <div class="upperTitleValuation">Valuation</div>
+                <div class="lowerGradientTitle">Structure</div>
+            </div>
+            <div class="valuationContainer">
+                <div class="valuationContent">
+                    <div class="blurFadeValuation"></div>
+                    <div class="valuationLeft">
+                        <div class="valuationLeftItem">
+                            <img src="{{asset('images/icons/valuationIcon.png')}}" class="valuationIconDark" alt="">
+                            <div class="valuationIconBox">
+                                <div class="upperBoxValuation">Partner</div>
+                                <div class="lowerBoxValuation">Sinfonia Team</div>
+                            </div>
+                        </div>
+                        <div class="valuationLeftItem" id="valuationItemNoBackground">
+                            <img src="{{asset('images/icons/blueIconValuation.png')}}" class="valuationIconLight" alt="">
+                            <div class="valuationIconBox">
+                                <div class="upperBoxValuation">Partner</div>
+                                <div class="lowerBoxValuation">Investor "A"</div>
+                            </div>
+                        </div>
+                        <img src="{{asset('images/valuationImg.png')}}" class="valuationImg" alt="">
+                    </div>
+                    <div class="valuationRight">
+                        <div class="valuationButtonRounded">
+                            <img src="{{asset('images/icons/checkedImg.png')}}" class="checkedImg" alt="">
+                            <div class="valuationRoundedText">
+                                <div class="upperValuationRounded">We used 1:1 ratio</div>
+                                <div class="lowerValuationRounded">$1.000COP: $1.000COP</div>
+                            </div>
+                        </div>
+                        <div class="valuationRightItem">
+                            <div class="valItem">
+                                <div class="valuationTextRightItem">if we raised</div>
+                                <div class="valuationLowerTextItem">$20.000.000.000COP</div>
+                            </div>
+                            <div class="valItem">
+                                <div class="valuationTextRightItem">company will be valued</div>
+                                <div class="valuationLowerTextItem">$20.000.000.000COP</div>
+                            </div>
+                        </div>
+                        <div class="valuationRightItem spaceValuation">
+                            <div class="valItem">
+                                <div class="valuationTextRightItem">investor “A” invest</div>
+                                <div class="valuationLowerTextItem">$2.000.000.000COP</div>
+                            </div>
+                            <div class="valItem">
+                                <div class="valuationTextRightItem"> investor “A” will own</div>
+                                <div class="valuationLowerTextItem">10% of company</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="valuationInfoTextContainer">
+                <div class="valuationInfoText">
+                    To give the most value to our investors and our community, the Sinfonia Global Exchange seed round won’t incorporate inflated or any initial dilution metrics in the valuation equation.
+                    <br><br>
+                    Here, we used a 1:1 ratio for our valuation which means for every peso you invest will cost the same as the Shares you buy $1.000COP: $1.000COP. That means, if we raised $20.000.000.000COP and if that Investor “A” invests $2.000.000.000 COP, the company will be valued at $20.000.000.000COP, and the Investor “A” will own 10% of the company.
+                </div>
+            </div>
+        </section>
+        <section class="traditionSection">
+            <div class="traditionContainer">
+                <div class="leftTradition">
+                    <div class="elipseTraditionBottom"></div>
+                    <div class="traditionContent">
+                        <div class="traditionModel">
+                            <div class="traditionSubTitle">Our Model</div>
+                        </div>
+                        <div class="titleContainer">
+                            <div class="upperTitleDark">Why are we using</div>
+                            <div class="lowerGradientTitle">a 1:1 valuation?</div>
+                        </div>
+                        <div class="traditionInner">
+                            <img src="{{asset('images/calc.png')}}" class="calcImg" alt="">
+                            <div class="traditionInnerText">The reason is so we have a better chance to raise more today, the more likely we can compete with Binance, Coinbase, and other similar companies in the industry with our competitors. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightTradition">
+                    <div class="elipseTraditionTop"></div>
+                    <div class="traditionContent">
+                        <div class="traditionModel">
+                            <div class="traditionSubTitle">Our Model</div>
+                        </div>
+                        <div class="titleContainer">
+                            <div class="innerTitleTradition">
+                                <div class="upperTitleDark">No traditional</div>
+                                <div class="lowerGradientTitle">“Dilution” at raise</div>
+                            </div>
+                        </div>
+                        <div class="traditionInner">
+                            <div class="traditionInnerTextRight">To align Shareholders’ interests and maximize growth, Bradley Riano and the Directors will not take an initial salary or bonuses.
+                                <br><br>
+                                In contrast to seed rounds, traditional "dilution" does not occur, and instead, individuals such as our founder, Bradley, receive compensation solely after an IPO or a sale event similar to an IPO.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="salarySection">
+            <div class="salaryContainer">
+                <div class="investTextContainer">
+                    <div class="investText">OUR MODEL</div>
+                </div>
+                <div class="titleContainer">
+                    <div class="upperTitle">There won’t be any initial salary to</div>
+                    <div class="lowerGradientTitle">Bradley Riano or to the board of directors</div>
+                </div>
+                <div class="salaryContent">
+                    <div class="leftSalary">
+                        <img src="{{asset('images/salary.png')}}" alt="">
+                    </div>
+                    <p class="salaryText">To align Shareholders’ interests and maximize growth, <span class="boldText">Bradley Riano and the Directors</span> will not take an initial salary or bonuses.
+
+                        In contrast to seed rounds, traditional "dilution" does not occur, and instead, individuals such as our founder, Bradley, receive compensation solely after an IPO or a sale event similar to an IPO.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="earlySection">
+            <div class="earlyContainer">
+                <div class="investText">Our Model</div>
+                <div class="earlyTitle">
+                    <div class="innerTitle">
+                        <p class="upperTitleEarly">For earlier investors,<span class="lowerGradientTitle">the faster you invest, the more opportunities you’ll get!</span></p>
+                    </div>
+                </div>
+                <div class="earlyTitleMobile">
+                    <div class="innerTitle">
+                        <p class="upperTitleEarly">For earlier investors,<br><span class="lowerGradientTitle">the faster you invest, the more opportunities you’ll get!</span></p>
+                    </div>
+                </div>
+                <div class="earlyContent">
+                    <div class="earlyLeft">
+                        <div class="boldText">The earlier you invest, the more warrants you’ll receive. We have a warrant mechanism built into the Offering that will allow you to, in the future, invest more at the seed-round valuation of ($1.000: $1.000).<br><br></div>
+                        <div class="earlyText">If we have a "SECOND SEED" call, this is an optional increase in the future value of your investment at the same valuation. The opportunity to purchase more Shares at a cheaper price at the “FIRST SEED” call price. You are not obliged to utilize these options and they will expire sixty (60) after the SECOND-SEED ROUND begins. Investors who have funded before certain deadlines will have the benefit of participating in the SECOND-SEED ROUND and purchase additional Shares based on how early they funded. </div>
+                        <div class="earlyAction">
+                            <div class="boldText">Interested in Our Solution?</div>
+                            <div class="buttonPrimary">Contact Us Now</div>
+                        </div>
+                    </div>
+                    <div class="earlyRight">
+                        <div class="squareEarly">
+                            <div class="elipseEarly"></div>
+                            <img src="{{asset('images/early.png')}}" class="imageEarly" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="warrantSection">
+            <div class="warrantContainer">
+                <div class="investTextContainer">
+                    <div class="investText">Example</div>
+                </div>
+                <div class="titleContainer">
+                    <div class="upperTitle">How Does</div>
+                    <div class="lowerGradientTitle">the warrant system works?</div>
+                </div>
+                <div class="warrantContent">
+                    <div class="warrantLeft">
+                        <div class="warrantItem">
+                            <div class="valuationTextRightItem">Invest Before July 31</div>
+                            <div class="valuationLowerTextItem">$100.000.000COP</div>
+                        </div>
+                        <div class="warrantItem">
+                            <div class="valuationTextRightItem">And You'd Have The Option To Invest</div>
+                            <div class="valuationLowerTextItem">$50.000.000COP</div>
+                        </div>
+                        <div class="warrantItem">
+                            <div class="valuationTextRightItem">At The Same</div>
+                            <div class="innerWarrantText">
+                                <div class="valuationLowerTextItem">$1.000COP</div>
+                                <div class="warrantSmallText">per Share valuation <br> in the second seed round</div>
+                            </div>
+                        </div>
+                        <div class="warrantAction">
+                            <div class="boldText">Interested in Our Solution?</div>
+                            <div class="buttonPrimaryWarrant">View Documents For More Information</div>
+                        </div>
+                    </div>
+                    <div class="warrantRight">
+                        <img src="{{asset('images/chart.png')}}" class="chart" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ceoSection">
+            <div class="ceoContainer">
+                <div class="ceoTitle">
+                    <div class="innerTitleCeo">
+                        <p class="upperTitleEarly">Bradley has pledged to invest of <span class="lowerGradientTitle">his personal funds $1.000.000.000 cop </span>at $1000 cop per share</p>
+                    </div>
+                </div>
+                <div class="ceoContent">
+                    <div class="ceoLeft">
+                        <img src="{{asset('images/ceo.png')}}" class="stampCeo" alt="">
+                        <img src="{{asset('images/funds.png')}}" class="fundsCeo" alt="">
+                        <div class="blurFadeValuation"></div>
+                        <img src="{{asset('images/bradley.png')}}" alt="">
+                    </div>
+                    <div class="ceoRight">
+                        <p class="ceoText"><span class="boldText">Bradley’s investment</span> will be at the same valuation you’re receiving. The difference with Bradley’s Shares is that they will have voting rights. For this purpose, we have called these Shares <span class="boldText">“Founder Shares.”</span></p>
+                        <div class="tinyText">***Bradley will invest in the course of 3 years</div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,87 @@
+.warrantSection{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.warrantContainer{
+    width: 60%;
+}
+.warrantContent{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.warrantLeft{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.warrantRight{
+    width:45%;
+}
+.buttonPrimaryWarrant{
+    padding: 16px 20px;
+    background: var(--violet);
+    color: white;
+    width: 363px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.warrantSmallText{
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+.innerWarrantText{
+    display: flex;
+    align-items: center;
+    column-gap: 7px;
+}
+.warrantAction{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.chart{
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .warrantSection{
+        margin-top: 50px;
+    }
+    .warrantContainer{
+        width: 100%;
+    }
+    .warrantContent{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: 50px;
+        row-gap: 50px;
+        align-items: center;
+    }
+    .warrantLeft{
+        width: 90%;
+    }
+    .warrantRight{
+        width: 90%;
+    }
+    .chart{
+        width: 100%;
+    }
+    .warrantAction{
+        align-items: center;
+    }
+    .buttonPrimaryWarrant{
+        width: 100%;
+    }
+}

@@ -1,0 +1,41 @@
+.salarySection{
+    margin-top: 180px;
+}
+.salaryContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}
+.salaryContent{
+    width: 55%;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+.salaryText{
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .salarySection{
+        margin-top: 50px;
+    }
+    .salaryContent{
+        width: 100%;
+        flex-direction: column;
+    }
+    .leftSalary{
+        width: 100%;
+    }
+    .leftSalary img{
+        width: 100%;
+    }
+    .salaryText{
+        width: 90%;
+    }
+}

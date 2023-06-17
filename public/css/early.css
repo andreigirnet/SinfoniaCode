@@ -1,0 +1,117 @@
+.earlySection{
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.earlyContainer{
+    width: 60%;
+}
+.earlyTitle{
+    width: 100%;
+    margin-top: 30px;
+}
+.innerTitle{
+    font-size: 60px;
+    font-family: "Mazzard", sans-serif;
+    display: flex;
+}
+.earlyText{
+    font-family: "Poppins", sans-serif;
+}
+.earlyAction{
+    margin-top: 78px;
+}
+.earlyContent{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    column-gap: 50px;
+}
+.earlyRight{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+.squareEarly{
+    width: 100%;
+    background: var(--darkBlue);
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+.earlyLeft{
+    width: 55%;
+}
+.elipseEarly{
+    width: 600px;
+    height: 500px;
+    background: var(--violet);
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+.imageEarly{
+    position: relative;
+    z-index: 2;
+}
+.earlyAction{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.earlyTitleMobile{
+    display: none;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+   .earlyContainer{
+       width: 100%;
+   }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .earlySection{
+        margin-top: 50px;
+    }
+    .earlyContainer{
+        width: 90%;
+    }
+    .earlySection{
+        justify-content: center;
+    }
+    .upperTitleEarly{
+        font-size: 35px;
+    }
+    .earlyContent{
+        flex-direction: column-reverse;
+        row-gap: 50px;
+        margin-top: 50px;
+    }
+    .earlyLeft{
+        width: 100%
+    }
+    .earlyRight{
+        width: 100%;
+    }
+    .imageEarly{
+        width: 90%;
+    }
+    .earlyAction{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;justify-content: center;
+    }
+    .earlyTitle{
+        display: none;
+    }
+    .earlyTitleMobile{
+        display: flex;
+        margin-top: 50px;
+    }
+}

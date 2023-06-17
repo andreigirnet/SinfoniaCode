@@ -1,0 +1,137 @@
+.titleContainerCompetition{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Mazzard", sans-serif;
+}
+.competitionContainer{
+    display: flex;
+}
+.competitionSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.competitionContainer{
+    width: 100%;
+}
+.competitionLeft{
+    width: 50%;
+    padding: 120px 135px;
+}
+.competitionRight{
+    width: 50%;
+}
+.competitionContent{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 20px;
+}
+.competitionItem{
+    flex-direction: column;
+    display: flex;
+    row-gap: 40px;
+}
+.competitionItem img{
+    width: 5px;
+}
+.competitionText{
+    font-family: "Poppins", sans-serif;
+}
+.competitionButton{
+    background: var(--violet);
+    width: 257px;
+    padding: 7px 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+}
+.competitionTextWhite{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.competitionRight{
+    background: var(--darkBlue);
+    padding: 120px 120px;
+}
+.rightCompetitionItem{
+    padding: 20px 15px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.rightCompetitionItem img{
+    width: 200px;
+}
+.actionCompetition{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.actionCompetitionMobile{
+    display: none;
+    flex-direction: column;
+    row-gap: 10px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+  .competitionContainer{
+      flex-direction: column;
+      row-gap: 30px;
+  }
+    .competitionLeft{
+        width: 100%;
+        padding: 0px;
+    }
+    .competitionRight{
+        width: 100%;
+        padding: 0px;
+    }
+    .competitionItem{
+        width: 85%;
+    }
+    .rightCompetitionItem{
+        width: 90%;
+    }
+    .titleContainerCompetition{
+        justify-content: center;
+        text-align: center;
+    }
+    .competitionSection{
+        margin-top: 100px;
+    }
+    .actionCompetition{
+        display: none;
+    }
+    .actionCompetitionMobile{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightContentContainer{
+        padding: 30px;
+    }
+    .competitionContent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        padding: 20px 0px;
+        width: 100%;
+    }
+}

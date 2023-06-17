@@ -1,0 +1,73 @@
+.ceoSection{
+    width: 100%;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+}
+.ceoContainer{
+    width: 60%;
+}
+.innerTitleCeo{
+    font-size: 60px;
+    font-family: "Mazzard", sans-serif;
+    text-align: center;
+}
+.ceoLeft{
+    position: relative;
+    padding-left: 50px;
+    overflow: hidden;
+}
+.stampCeo{
+    position: absolute;
+    top: -50px;
+    right: -70px;
+}
+.ceoContent{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ceoRight{
+    width: 50%;
+}
+.ceoText{
+    font-family: "Poppins", sans-serif;
+}
+.tinyText{
+    font-size: 14px;
+    opacity: 0.6;
+    margin-top: 50px;
+}
+.ceoTitle{
+    width: 100%;
+    margin-top: 30px;
+}
+.fundsCeo{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .ceoContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .ceoContent{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .stampCeo{
+        right: -19px;
+        top: -4px;
+    }
+    .ceoRight{
+        width: 90%;
+        margin-top: 50px;
+    }
+}

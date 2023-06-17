@@ -1,0 +1,144 @@
+.traditionSection{
+
+    margin-top: 200px;
+}
+.traditionContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+.leftTradition{
+    width: 40%;
+    height: 650px;
+    background: var(--darkBlue);
+    position: relative;
+    overflow: hidden;
+}
+.rightTradition{
+    width: 40%;
+    height: 650px;
+    background: var(--darkBlue);
+    position: relative;
+    overflow: hidden;
+}
+.elipseTraditionBottom{
+    width: 600px;
+    height: 500px;
+    background: var(--violet);
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+.elipseTraditionTop{
+    width: 600px;
+    height: 500px;
+    background: var(--violet);
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
+.traditionContent{
+    position: relative;
+    z-index: 2;
+}
+.traditionInner{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.traditionModel{
+    margin-top: 76px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.traditionSubTitle{
+    width: 60%;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+}
+.traditionInnerText{
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.traditionInnerTextRight{
+    width: 69%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.titleContainerTraditionRight{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    flex-direction: column;
+    font-weight: 500;
+    font-family: "Mazzard", sans-serif;
+}
+.innerTitleTradition{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .traditionContainer{
+       flex-direction: column;
+    }
+    .leftTradition{
+        width: 100%;
+    }
+    .rightTradition{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .traditionContainer{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .leftTradition{
+        width: 100%;
+        align-items: center;
+        height: auto;
+    }
+    .rightTradition{
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    .traditionInner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .traditionInnerText{
+        width: 75%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .traditionInnerTextRight{
+        width: 75%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .calcImg{
+        width: 75%;
+    }
+    .innerTitleTradition{
+        width: 75%;
+    }
+}

@@ -72,6 +72,9 @@
         flex-direction: column;
         row-gap: 40px;
     }
+    .joinContent{
+        padding: 0px;
+    }
 }
 @media screen and (max-width: 767px) and (min-width: 250px){
     .titleContainer{
@@ -80,5 +83,8 @@
     .joinContentUpper{
         flex-direction: column;
         row-gap: 40px;
+    }
+    .joinContent{
+        padding: 0px;
     }
 }
