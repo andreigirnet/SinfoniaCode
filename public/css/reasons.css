@@ -1,0 +1,104 @@
+.reasonsSection{
+    margin-top: 250px;
+    background: var(--darkBlue);
+    position: relative;
+    padding-bottom: 100px;
+    border: 1px solid rgba(114, 200, 240, 0.1);
+}
+.upperTitleReasons{
+    font-size: 60px;
+    color: white;
+    font-family: "Mazzard", sans-serif;
+}
+.reasonsSubtitleContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.reasonsSubtitle{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.reasonItemsContainer{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.reasonItem{
+    width: 15%;
+    padding: 30px 50px;
+    border: 1px solid rgba(114, 200, 240, 0.1);
+    position: relative;
+}
+#reason2{
+    transform: translate(0, -50px);
+}
+#reason3{
+    transform: translate(0, -100px);
+}
+.reasonItemTitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--violet);
+    padding-top: 183px;
+}
+.reasonItemDescription{
+    margin-top: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.reasonsElipse{
+    width: 600px;
+    height: 500px;
+    background: var(--violet);
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(90px);
+}
+#reasonsTitle{
+    margin-top: 20px;
+}
+.imgReason{
+    position: absolute;
+    top: -92px;
+    left: 50%;
+    transform: translate( -50%);
+    width: 184px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .reasonsElipse{
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .reasonsElipse{
+        display: none;
+    }
+    .upperTitleReasons{
+        font-size: 35px;
+    }
+    #reason2{
+        transform: translate(0, 0px);
+    }
+    #reason3{
+        transform: translate(0, 0px);
+    }
+    .reasonItemsContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reasonItem{
+        width: 90%;
+        padding-bottom: 100px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}

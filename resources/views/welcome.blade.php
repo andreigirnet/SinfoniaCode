@@ -20,6 +20,10 @@
         <link rel="stylesheet" href="{{asset('css/early.css')}}">
         <link rel="stylesheet" href="{{asset('css/warrant.css')}}">
         <link rel="stylesheet" href="{{asset('css/ceo.css')}}">
+        <link rel="stylesheet" href="{{asset('css/reasons.css')}}">
+        <link rel="stylesheet" href="{{asset('css/ready.css')}}">
+        <link rel="stylesheet" href="{{asset('css/how.css')}}">
+        <link rel="stylesheet" href="{{asset('css/faq.css')}}">
     </head>
     <body>
         <section class="mainBanner">
@@ -659,5 +663,165 @@
                 </div>
             </div>
         </section>
+        <section class="reasonsSection">
+            <div class="reasonsElipse"></div>
+            <div class="reasonsContainer">
+                <div class="reasonsSubtitleContainer">
+                    <div class="reasonsSubtitle">OUR MODEL</div>
+                </div>
+                <div class="innerTitleCeo" id="reasonsTitle">
+                    <p class="upperTitleReasons">Reasons <span class="lowerGradientTitle">To Invest</span></p>
+                </div>
+                <div class="reasonItemsContainer">
+                    <div class="reasonItem">
+                        <img src="{{asset('images/reason1.png')}}" class="imgReason" alt="">
+                        <div class="reasonItemTitle">Growth potential with seed round valuation</div>
+                        <div class="reasonItemDescription">Investing in our Seed Round will give you ownership of the company. If we can raise $20.000.000.000COP there is an incredible growth opportunity to be part of the first Colombian company that provides and operates a regulated cryptocurrency exchange. A platform for Colombian users to access trading, wallet, and other digital investment services and products.</div>
+                    </div>
+                    <div class="reasonItem" id="reason2">
+                        <img src="{{asset('images/reason2.png')}}"  class="imgReason" alt="">
+                        <div class="reasonItemTitle">Diversification and exposure to new markets</div>
+                        <div class="reasonItemDescription">Investors will have the opportunity to invest in a rapidly growing cryptocurrency market and innovative technology that is anticipated to generate significant returns in the future. Along with increasing your portfolio's exposure to cryptocurrencies, scalability also allows for greater diversification. In addition, with international investors, you'll have the opportunity to invest in a foreign market.</div>
+                    </div>
+                    <div class="reasonItem" id="reason3">
+                        <img src="{{asset('images/reason3.png')}}" class="imgReason" alt="">
+                        <div class="reasonItemTitle">No sort of typical “dilution”</div>
+                        <div class="reasonItemDescription">The valuation and structure for our Seed Round are made to reward our community. Currently, there is no typical dilution to inflate the valuation for the company resources, the opportunity, or our expertise. What is raised will be the valuation we sell Shares for ($1.000 COP: $1.000).</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="readySection">
+            <div class="elipseReady"></div>
+            <div class="readyContainer">
+                <div class="reasonsSubtitleContainer">
+                    <div class="reasonsSubtitle">INVEST</div>
+                </div>
+                <div class="innerTitleCeo">
+                    <p class="upperTitleReady">Ready To Embark On <span class="lowerGradientTitle">Sinfonia<br> Global Exchange’s journey and team?</span></p>
+                </div>
+                <div class="readyContent">
+                    <div class="readyLeft"><img src="{{asset('images/logoReady.png')}}" alt=""></div>
+                    <div class="readyRight">
+                        <div class="readyText">Invest now while our Seed Round is open. This may be the only time we raise funds before we go public. </div>
+                        <div class="bannerButtoonContainer">
+                            <div class="readyButtonText">Invest Now</div>
+                            <div class="rightButtonBanner"><img src="{{asset('images/arrows/rightSmallArrow.png')}}" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="readyInfo">
+                    <div class="readyInfoContainer">
+                        <img src="{{asset('images/icons/ready.png')}}" alt="">
+                        <div class="readyInfoText">Read all documents before investing </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="howSection">
+            <div class="howContainer">
+                <div class="investTextContainer">
+                    <div class="investText">3 SIMPLE STEPS</div>
+                </div>
+                <div class="titleContainer">
+                    <div class="upperTitle">How To Invest</div>
+                    <div class="lowerGradientTitle">Before The Offering Finalizes</div>
+                </div>
+                <div class="howContent">
+                    <div class="howItem">
+                        <div class="imgContainerHow">
+                            <img class="howDots" src="{{asset('images/how1.png')}}">
+                        </div>
+                        <div class="step">Step 1</div>
+                        <div class="howItemTitle">Click the ‘Start Investing’ button. </div>
+                        <div class="howItemDescription">Read and fill out the form and answer some questions.</div>
+                    </div>
+                    <div class="howItem">
+                        <div class="imgContainerHow">
+                            <img class="howDots" src="{{asset('images/how2.png')}}">
+                        </div>
+                        <div class="step">Step 2</div>
+                        <div class="howItemTitle">Sign the Subscription Agreement. </div>
+                        <div class="howItemDescription">This is an agreement between you and Sinfonia Global Exchange S.A.S. to buy shares of the company at the price of $1.000 COP per share.</div>
+                    </div>
+                    <div class="howItem">
+                        <div class="imgContainerHow">
+                            <img class="howDots" src="{{asset('images/how3.png')}}">
+                        </div>
+                        <div class="step">Step 3</div>
+                        <div class="howItemTitle">Wire funds and receive an electronic stock certificate confirmation. </div>
+                        <div class="howItemDescription">We will email you confirmation of your purchase and electronic stock certificates once we have verified your status, approved your application, and received your payments.</div>
+                    </div>
+                </div>
+                <div class="revAction">
+                    <div class="revButton">Start Investing Now</div>
+                </div>
+            </div>
+        </section>
+        <section class="faqSection">
+            <div class="faqContainer">
+                <div class="leftFaq">
+                    <div class="faqSubtitle">Knwoledge Base</div>
+                    <div class="faqTitleContainer">
+                        <div class="UpperTitleFaq">Frequently</div>
+                        <div class="gradientFaqTitle">asked question</div>
+                    </div>
+                    <div class="faqContent">
+                        <div class="faqItem">
+                            <div class="innerFaqItem">
+                                <div class="faqTitle">How much can I invest?</div>
+                                <img class="faqArrowDown" src="{{asset('images/arrows/downArrow.png')}}">
+                                <img class="faqArrowUp" src="{{asset('images/arrows/upArrow.png')}}">
+                            </div>
+                            <div class="faqText">
+                                After you've invested, we will process your investment. It will take a few business days AFTER receiving a wire to send you a confirmation. Wires must be cleared before. Once cleared, we must process them - and we'll do our best to do so quickly. When the round closes, you'll receive an electronic stock certificate that proves the shares you own in Sinfonia Global Exchange S.A.S.
+                            </div>
+                        </div>
+                        <div class="faqItem">
+                            <div class="innerFaqItem">
+                                <div class="faqTitle">When will I receive my shares?</div>
+                                <img class="faqArrowDown" src="{{asset('images/arrows/downArrow.png')}}">
+                                <img class="faqArrowUp" src="{{asset('images/arrows/upArrow.png')}}">
+                            </div>
+                            <div class="faqText">
+                                After you've invested, we will process your investment. It will take a few business days AFTER receiving a wire to send you a confirmation. Wires must be cleared before. Once cleared, we must process them - and we'll do our best to do so quickly. When the round closes, you'll receive an electronic stock certificate that proves the shares you own in Sinfonia Global Exchange S.A.S.
+                            </div>
+                        </div>
+                        <div class="faqItem">
+                            <div class="innerFaqItem">
+                                <div class="faqTitle">If I'm not based in Colombia, can I still invest?</div>
+                                <img class="faqArrowDown" src="{{asset('images/arrows/downArrow.png')}}">
+                                <img class="faqArrowUp" src="{{asset('images/arrows/upArrow.png')}}">
+                            </div>
+                            <div class="faqText">
+                                After you've invested, we will process your investment. It will take a few business days AFTER receiving a wire to send you a confirmation. Wires must be cleared before. Once cleared, we must process them - and we'll do our best to do so quickly. When the round closes, you'll receive an electronic stock certificate that proves the shares you own in Sinfonia Global Exchange S.A.S.
+                            </div>
+                        </div>
+                        <div class="faqItem">
+                            <div class="innerFaqItem">
+                                <div class="faqTitle">When will the Seed Round be closed?</div>
+                                <img class="faqArrowDown" src="{{asset('images/arrows/downArrow.png')}}">
+                                <img class="faqArrowUp" src="{{asset('images/arrows/upArrow.png')}}">
+                            </div>
+                            <div class="faqText">
+                                After you've invested, we will process your investment. It will take a few business days AFTER receiving a wire to send you a confirmation. Wires must be cleared before. Once cleared, we must process them - and we'll do our best to do so quickly. When the round closes, you'll receive an electronic stock certificate that proves the shares you own in Sinfonia Global Exchange S.A.S.
+                            </div>
+                        </div>
+                        <div class="faqItem">
+                            <div class="innerFaqItem">
+                                <div class="faqTitle">Will there be a chance to invest in the future?</div>
+                                <img class="faqArrowDown" src="{{asset('images/arrows/downArrow.png')}}">
+                                <img class="faqArrowUp" src="{{asset('images/arrows/upArrow.png')}}">
+                            </div>
+                            <div class="faqText">
+                                After you've invested, we will process your investment. It will take a few business days AFTER receiving a wire to send you a confirmation. Wires must be cleared before. Once cleared, we must process them - and we'll do our best to do so quickly. When the round closes, you'll receive an electronic stock certificate that proves the shares you own in Sinfonia Global Exchange S.A.S.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightFaq"><img src="{{asset('images/faq.png')}}" alt=""></div>
+            </div>
+        </section>
+        <script src="{{asset('js/faq.js')}}"></script>
     </body>
 </html>

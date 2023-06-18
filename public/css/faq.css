@@ -1,0 +1,112 @@
+.faqSection{
+    margin-top: 250px;
+}
+.faqContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.leftFaq{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.rightFaq{
+    width: 30%;
+}
+.faqSubtitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #001343;
+    margin-left: 15px;
+}
+.UpperTitleFaq{
+    font-size: 60px;
+    font-family: 'Mazzard', sans-serif;
+}
+.gradientFaqTitle{
+    background: linear-gradient(to right, #4e4b98, #31d4d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-family: 'Mazzard', sans-serif;
+}
+.innerFaqItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.faqItem{
+    width: 75%;
+    cursor: pointer;
+    padding: 20px;
+    height: auto;
+    background: white;
+}
+.faqArrowUp{
+    display: none;
+}
+.faqArrowDown{
+}
+.faqText{
+    display: none;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.faqContent{
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+}
+.faqTitle{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    .rightFaq{
+        position: absolute;
+        right: -60px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .rightFaq{
+        position: absolute;
+        right: 150px;
+        z-index: -1;
+        top: 150px;
+    }
+    .leftFaq{
+        margin-top: 60px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .UpperTitleFaq{
+        font-size: 35px;
+        font-family: 'Mazzard', sans-serif;
+    }
+    .gradientFaqTitle{
+        font-size: 35px;
+    }
+    .faqContent{
+        width: 90%;
+        row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+    .faqItem{
+        width: 80%;
+        padding: 15px 20px;
+    }
+    .faqTitle{
+        font-size: 16px;
+    }
+}
