@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sinfonia Global Exchange</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="{{asset('public/css/main.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/mainBanner.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/join.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/revolution.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/problems.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/solution.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/future.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/model.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/competition.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/valuation.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/tradition.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/salary.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/early.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/warrant.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/ceo.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/reasons.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/ready.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/how.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/faq.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/footer.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/document.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/mobileNav.css')}}">
-    <link rel="stylesheet" href="{{asset('public/css/popUp.css')}}">
+    <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('css/mainBanner.css')}}">
+    <link rel="stylesheet" href="{{asset('css/join.css')}}">
+    <link rel="stylesheet" href="{{asset('css/revolution.css')}}">
+    <link rel="stylesheet" href="{{asset('css/problems.css')}}">
+    <link rel="stylesheet" href="{{asset('css/solution.css')}}">
+    <link rel="stylesheet" href="{{asset('css/future.css')}}">
+    <link rel="stylesheet" href="{{asset('css/model.css')}}">
+    <link rel="stylesheet" href="{{asset('css/competition.css')}}">
+    <link rel="stylesheet" href="{{asset('css/valuation.css')}}">
+    <link rel="stylesheet" href="{{asset('css/tradition.css')}}">
+    <link rel="stylesheet" href="{{asset('css/salary.css')}}">
+    <link rel="stylesheet" href="{{asset('css/early.css')}}">
+    <link rel="stylesheet" href="{{asset('css/warrant.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ceo.css')}}">
+    <link rel="stylesheet" href="{{asset('css/reasons.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ready.css')}}">
+    <link rel="stylesheet" href="{{asset('css/how.css')}}">
+    <link rel="stylesheet" href="{{asset('css/faq.css')}}">
+    <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+    <link rel="stylesheet" href="{{asset('css/document.css')}}">
+    <link rel="stylesheet" href="{{asset('css/mobileNav.css')}}">
 </head>
 <body>
 <section class="mainBannerDoc">
@@ -239,6 +238,6 @@
         </div>
     </div>
 </section>
-<script src="{{asset('public/js/faq.js')}}"></script>
+<script src="{{asset('js/faq.js')}}"></script>
 </body>
 </html>
