@@ -21,6 +21,14 @@
 .warrantRight{
     width:45%;
 }
+.noDecLink{
+    text-decoration: none;
+    color: white;
+}
+.noDecLinkDark{
+    text-decoration: none;
+    color: black;
+}
 .buttonPrimaryWarrant{
     padding: 16px 20px;
     background: var(--violet);
@@ -32,6 +40,7 @@
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
 }
 .warrantSmallText{
     font-size: 12px;

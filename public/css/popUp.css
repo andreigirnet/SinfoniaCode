@@ -1,0 +1,227 @@
+.popUpContainer{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 2000;
+    background: var(--darkBlue);
+    padding: 60px 70px;
+    display: none;
+}
+.popWhiteTitle{
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Mazzard", sans-serif;
+    color: white;
+}
+.gradientPopUpTitle{
+    background: linear-gradient(to right, #4e4b98, #31d4d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "Mazzard", sans-serif;
+}
+.closeImg{
+    position: absolute;
+    right: 100px;
+    top: -20px;
+    cursor: pointer;
+}
+.popUpInner{
+    position: relative;
+}
+.popUpContent{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 200px;
+}
+.popListItem{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    color: white;
+}
+.listPopUp{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    background: #071a51;
+    padding: 50px 46px;
+    position: relative;
+    border: 1px solid rgba(127, 17, 224, 0.2);
+}
+.textPopUp{
+    font-family: "Poppins", sans-serif;
+    width: 300px;
+}
+.chatIcon{
+    position: absolute;
+    top: -23px;
+}
+.popRight{
+    width: 50%;
+}
+.firstNameLastName{
+    display: flex;
+    align-items: center;
+}
+.formSmall{
+    width: 90%;
+    height: 44px;
+    background: var(--darkBlue);
+    outline: none;
+    border: 1px solid rgba(127, 17, 224, 0.2);
+    padding-left: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.firstNameLastName{
+    width: 100%;
+}
+.inputContainer{
+    width: 100%;
+    position: relative;
+}
+.popRightTitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+.form{
+    margin-top: 30px;
+}
+.formIcon{
+    position: absolute;
+    left: 11px;
+    top: 15px;
+    width: 18px;
+}
+.emailContainer{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.emailInput{
+    width: 95%;
+    height: 44px;
+    background: var(--darkBlue);
+    outline: none;
+    border: 1px solid rgba(127, 17, 224, 0.2);
+    padding-left: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.buttonPop{
+    margin-top: 20px;
+    background: var(--violet);
+    width: 245px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.buttonPopText{
+    display: flex;
+    align-items: center;
+}
+.buttonPopArrow{
+    display: flex;
+    align-items: center;
+}
+.popUpInfo{
+    margin-top: 62px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.popInfoText{
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.spamInfo{
+    border: 1px solid rgba(127, 17, 224, 0.2);
+    padding: 16px 27px;
+    margin-top: 16px;
+    color: #576EF2;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    width: 45%;
+    margin-left: 35px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .popWhiteTitle{
+        font-size: 30px;
+    }
+    .gradientPopUpTitle{
+        font-size: 30px;
+    }
+    .popUpContainer{
+        padding: 0;
+        overflow: auto;
+    }
+    .popTitleContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .closeImg{
+        position: absolute;
+        right: 28px;
+        top: -33px;
+        cursor: pointer;
+    }
+    .popUpContent{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 50px;
+    }
+    .popRight{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .formSmall{
+        width: 63%;
+    }
+    .emailInput{
+        width: 82%;
+    }
+    .form{
+        margin-left: 5px;
+    }
+    .popUpInfo{
+        width: 95%;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    .spamInfo{
+        width: 90%;
+        margin-left: 0px;
+       padding: 7px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .popUpInner{
+        width: 100%;
+    }
+    .popLeft{
+        width: 100%;
+    }
+}

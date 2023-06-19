@@ -24,8 +24,14 @@
         <link rel="stylesheet" href="{{asset('css/ready.css')}}">
         <link rel="stylesheet" href="{{asset('css/how.css')}}">
         <link rel="stylesheet" href="{{asset('css/faq.css')}}">
+        <link rel="stylesheet" href="{{asset('css/footer.css')}}">
+        <link rel="stylesheet" href="{{asset('css/document.css')}}">
+        <link rel="stylesheet" href="{{asset('css/mobileNav.css')}}">
+        <link rel="stylesheet" href="{{asset('css/popUp.css')}}">
     </head>
     <body>
+        @include('mobileMenu')
+        @include('investPopUp')
         <section class="mainBanner">
             <div class="navBar">
                 <div class="logoLeft">
@@ -74,17 +80,19 @@
                     </svg>
                 </div>
                 <div class="menuNavRight">
-                    <div class="menuitem">Problems & Solutions</div>
+                    <a href="#problem" class="noDecLink"><div class="menuitem">Problems & Solutions</div></a>
                     <div class="menuitem">Our Model</div>
-                    <div class="menuitem">Faq</div>
-                    <div class="menuitemDrop">
-                        <div class="menuItem">Documents</div>
-                        <div class="downArrow">
-                            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 4.5L0 0.5H8L4 4.5Z" fill="white"/>
-                            </svg>
-                        </div>
-                    </div>
+                    <a href="#faq" class="noDecLink"><div class="menuitem">Faq</div></a>
+                    <a href="{{route('documents')}}" class="noDecLink">
+                            <div class="menuitemDrop">
+                            <div class="menuItem">Documents</div>
+                            <div class="downArrow">
+                                <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4.5L0 0.5H8L4 4.5Z" fill="white"/>
+                                </svg>
+                            </div>
+                            </div>
+                    </a>
                     <div class="menuitemDrop">
                             <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_136_117)">
@@ -107,8 +115,9 @@
                                 </svg>
                             </div>
                     </div>
-                    <div class="navButton">Start Investing</div>
-                    <img src="{{asset('images/menu/menu.png')}}" alt="">
+                    <div class="navButton" onclick="openPopUp()">Start Investing</div>
+                    <img src="{{asset('images/menu/menu.png')}}" id="menuImg" alt="">
+                    <img src="{{asset('images/icons/cross.png')}}" id="crossImg" alt="">
                 </div>
             </div>
             <div class="elipseMainBanner">
@@ -118,7 +127,7 @@
                     <div class="bannerTitle">Introducing Sinfonia Global Exchange our New Digital Financial Technology Company!</div>
                     <div class="text">Be part of the transition to digital finance. Through Sinfonia Global Exchange - we can work together to simplify finance and eliminate barriers to entry to the digital markets.
                     </div>
-                    <div class="bannerButtoonContainer">
+                    <div class="bannerButtoonContainer" onclick="openPopUp()">
                         <div class="leftButtonBanner">Invest Now</div>
                         <div class="rightButtonBanner"><img src="{{asset('images/arrows/rightSmallArrow.png')}}" alt=""></div>
                     </div>
@@ -166,7 +175,7 @@
                         </div>
                     </div>
                     <div class="lowerJoinContainer">
-                        <div class="buttonPrimary">Invest Now</div>
+                        <div class="buttonPrimary" onclick="openPopUp()">Invest Now</div>
                     </div>
                 </div>
             </div>
@@ -181,13 +190,13 @@
                     <div class="revolutionText">The First Regulated Crypto Exchange in Colombia, Solving Industry Flaws and Providing a Secure and Transparent Platform for All Investors. Invest in the future of crypto with Sinfonia Global Exchange.</div>
                 </div>
                 <div class="revAction">
-                    <div class="revButton">Start Investing Now</div>
+                    <div class="revButton" onclick="openPopUp()">Start Investing Now</div>
                 </div>
             </div>
             <div class="elipseMainBannerRev">
             </div>
         </section>
-        <section class="problemsSection">
+        <section class="problemsSection" id="problem">
             <div class="investTextContainer">
                 <div class="investText">PROBLEMS & SOLUTIONS</div>
             </div>
@@ -266,7 +275,7 @@
                         </p>
                         <div class="solutionAction">
                             <div class="boldText">Interested in our solutions?</div>
-                            <div class="buttonPrimary">Contact Us Now</div>
+                            <div class="buttonPrimary" onclick="openPopUp()">Contact Us Now</div>
                         </div>
                     </div>
                 </div>
@@ -419,7 +428,7 @@
                         </div>
                         <div class="actionCompetition">
                             <div class="boldText">Interested in our solutions?</div>
-                            <div class="competitionButton">Contact Us Now And Check</div>
+                            <div class="competitionButton" onclick="openPopUp()">Contact Us Now And Check</div>
                         </div>
                     </div>
                 </div>
@@ -593,7 +602,7 @@
                         <div class="earlyText">If we have a "SECOND SEED" call, this is an optional increase in the future value of your investment at the same valuation. The opportunity to purchase more Shares at a cheaper price at the “FIRST SEED” call price. You are not obliged to utilize these options and they will expire sixty (60) after the SECOND-SEED ROUND begins. Investors who have funded before certain deadlines will have the benefit of participating in the SECOND-SEED ROUND and purchase additional Shares based on how early they funded. </div>
                         <div class="earlyAction">
                             <div class="boldText">Interested in Our Solution?</div>
-                            <div class="buttonPrimary">Contact Us Now</div>
+                            <div class="buttonPrimary" onclick="openPopUp()">Contact Us Now</div>
                         </div>
                     </div>
                     <div class="earlyRight">
@@ -633,7 +642,7 @@
                         </div>
                         <div class="warrantAction">
                             <div class="boldText">Interested in Our Solution?</div>
-                            <div class="buttonPrimaryWarrant">View Documents For More Information</div>
+                            <a href="{{route('documents')}}" class="noDecLink"><div class="buttonPrimaryWarrant">View Documents For More Information</div></a>
                         </div>
                     </div>
                     <div class="warrantRight">
@@ -705,7 +714,7 @@
                     <div class="readyRight">
                         <div class="readyText">Invest now while our Seed Round is open. This may be the only time we raise funds before we go public. </div>
                         <div class="bannerButtoonContainer">
-                            <div class="readyButtonText">Invest Now</div>
+                            <div class="readyButtonText" onclick="openPopUp()">Invest Now</div>
                             <div class="rightButtonBanner"><img src="{{asset('images/arrows/rightSmallArrow.png')}}" alt=""></div>
                         </div>
                     </div>
@@ -754,11 +763,11 @@
                     </div>
                 </div>
                 <div class="revAction">
-                    <div class="revButton">Start Investing Now</div>
+                    <div class="revButton" onclick="openPopUp()">Start Investing Now</div>
                 </div>
             </div>
         </section>
-        <section class="faqSection">
+        <section class="faqSection" id="faq">
             <div class="faqContainer">
                 <div class="leftFaq">
                     <div class="faqSubtitle">Knwoledge Base</div>
@@ -822,6 +831,53 @@
                 <div class="rightFaq"><img src="{{asset('images/faq.png')}}" alt=""></div>
             </div>
         </section>
+        <section class="footerSection">
+            <div class="footerContainer">
+                <div class="footerMenuContainer">
+                    <div class="footerLogo"><img src="{{asset('images/footerLogo.png')}}" alt=""></div>
+                    <div class="footerMenu">
+                        <a href="#problem" class="noDecLinkDark"><div class="footerMenuItem">Problems&Solutions</div></a>
+                        <div class="footerMenuItem">Our Model</div>
+                        <a href="#faq" class="noDecLinkDark"><div class="footerMenuItem">Faq</div></a>
+                        <a href="{{route('documents')}}" class="noDecLinkDark">
+                            <div class="footerMenuItem">
+                                <div class="innerMenuItem">Documents</div>
+                                <img src="{{asset('images/arrows/arrowDownBlack.png')}}" alt="">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="footericons">
+                        <a href=""><img src="{{asset('images/icons/discord.png')}}" alt=""></a>
+                        <a href=""><img src="{{asset('images/icons/twitter.png')}}" alt=""></a>
+                        <a href=""><img src="{{asset('images/icons/telegram.png')}}" alt=""></a>
+                        <a href=""><img src="{{asset('images/icons/insta.png')}}" alt=""></a>
+                    </div>
+                </div>
+                <div class="footerInfoContainer">
+                    <div class="footerInfo">
+                        <img src="{{asset('images/icons/infoFooter.png')}}" class="infoFooterImg" alt="">
+                        <p class="infoTextFooter">All resources, including texts, videos, and emails, are provided solely for informational purposes. The information in them is not a solicitation to invest in any asset. If you have any questions about the information, please contact our investor relations division at RI@sinfoniaglobalexchnage.com and review the documents:
+                            <a href="">Colocación Privada</a> and <a href="">Acuerdo Suscripción.</a></p>
+                    </div>
+                </div>
+                <div class="lowerFooterContainer">
+                    <div class="copyright">Copyright © 2023 Sinfonia Global Exchange</div>
+                    <div class="lowerLogos">
+                        <img src="{{asset('images/footer3.png')}}" alt="">
+                        <img src="{{asset('images/footer2.png')}}" alt="">
+                        <img src="{{asset('images/footer1.png')}}" alt="">
+                    </div>
+                    <div class="copyrightMobile">Copyright © 2023 Sinfonia Global Exchange</div>
+                    <div class="privacy">
+                        <div class="privacyItem">Terms of Service</div>
+                        <img src="{{asset('images/icons/blueDot.png')}}" class="blueDot" alt="">
+                        <div class="privacyItem">Privacy Policy</div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <script src="{{asset('js/faq.js')}}"></script>
+        <script src="{{asset('js/menu.js')}}"></script>
+        <script src="{{asset('js/pop.js')}}"></script>
     </body>
 </html>

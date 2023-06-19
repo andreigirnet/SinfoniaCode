@@ -5,6 +5,13 @@
     position: relative;
     overflow: hidden;
 }
+.mainBannerDoc{
+    width: 100%;
+    height: 560px;
+    background: #001343;
+    position: relative;
+    overflow: hidden;
+}
 .navBar{
     padding: 12px 30px;
     position: fixed;
@@ -16,6 +23,7 @@
     z-index: 999;
     width: 100vw;
     box-sizing: border-box;
+    background-color: rgba(0, 19, 67, 0.4);
     backdrop-filter: blur(90px);
 }
 .menuNavRight{
@@ -56,6 +64,13 @@
     justify-content: center;
     align-items: center;
     height: 724px;
+}
+.bannerContentContainerDoc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
 }
 .bannerLeft{
     width: 50%;

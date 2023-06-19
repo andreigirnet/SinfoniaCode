@@ -1,0 +1,123 @@
+.footerSection{
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footerContainer{
+    width: 85%;
+}
+.footerMenuContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+.footerMenuItem{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.footericons{
+    display: flex;
+    column-gap: 25px;
+}
+.footericons img{
+    width: 28px;
+    height: 25px;
+}
+.footerInfoContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footerInfo{
+    width: 90%;
+    display: flex;
+    column-gap: 50px;
+}
+.infoTextFooter{
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.infoFooterImg{
+    width: 24px;
+    height: 24px;
+}
+.lowerFooterContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+    padding-bottom: 50px;
+}
+.privacy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+}
+.blueDot{
+    width: 6px;
+     height: 6px;
+}
+.copyright{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.5;
+}
+.lowerLogos{
+    display: flex;
+    column-gap: 20px;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+    .footerMenuContainer{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .footerMenu{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footerInfo{
+        column-gap: 30px;
+    }
+    .copyright{
+        display: none;
+    }
+    .copyrightMobile{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        opacity: 0.5;
+        display: block;
+    }
+    .lowerFooterContainer{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .lowerLogos img{
+        width: 100px;
+    }
+}

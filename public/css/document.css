@@ -1,0 +1,149 @@
+.docContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.docInnerContainer{
+    width: 55%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+.docItem{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.docText{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.docCeoSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    align-items: center;
+    flex-direction: column;
+}
+.doCeoContainer{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.docTitleContainer{
+    display: flex;
+    column-gap: 5px;
+}
+.docCeoContent{
+    display: flex;
+    margin-top: 60px;
+    column-gap: 20px;
+}
+.docCeoText{
+    width: 65%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.docIcon{
+    width: 34px;
+    height: 34px;
+}
+.docCeoLeft{
+    width: 55%;
+}
+#docInvest{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+.docCeoRight{
+    position: relative;
+}
+.coinDoc{
+    position: absolute;
+    right: -20px;
+    top: -100px;
+}
+.docCeoSubtitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #001343;
+    margin-left: 15px;
+}
+.docCeoSubtitleMob{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #001343;
+    margin-left: 15px;
+    display: none;
+}
+.docTitleContainerMob{
+    display: none;
+}
+@media screen and (max-width: 1200px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 767px) and (min-width: 250px){
+   .doCeoContainer{
+       flex-direction: column-reverse;
+   }
+    .coinDoc{
+        right: -20px;
+        width: 130px;
+    }
+    .docCeo{
+        width: 90%;
+    }
+    .docCeoRight{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .docCeoSubtitle{
+        display: none;
+    }
+    .docTitleContainer{
+        display: none;
+    }
+    .docCeoSubtitleMob{
+        display: flex;
+        text-align: start;
+        width: 100%;
+    }
+    .docTitleContainerMob{
+        width: 100%;
+        align-items: start;
+        display: flex;
+        text-align: start;
+        column-gap: 5px;
+        margin-left: 10px;
+    }
+    .docCeoContent{
+        width: 100%;
+    }
+    .docCeoLeft{
+        width: 100%;
+    }
+    .docCeoText{
+        width: 90%;
+    }
+    .docInnerContainer{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .docItem{
+        width: 90%;
+    }
+}
