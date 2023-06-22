@@ -3,6 +3,8 @@
     margin-top: 170px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .ceoContainer{
     width: 60%;
@@ -27,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 0px 40px 24px -24px #EAEFF7;
 }
 .ceoRight{
     width: 50%;

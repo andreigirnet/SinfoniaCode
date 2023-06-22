@@ -37,6 +37,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 10px;
+    box-shadow: 0px 40px 24px -24px #EAEFF7;
 }
 .leftModel{
     display: flex;

@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     margin-top: 100px;
+    box-shadow: 0px 40px 24px -24px #EAEFF7;
 }
 .warrantLeft{
     width: 45%;

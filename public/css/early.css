@@ -91,6 +91,7 @@
         flex-direction: column-reverse;
         row-gap: 50px;
         margin-top: 50px;
+        box-shadow: 0px 40px 24px -24px #EAEFF7;
     }
     .earlyLeft{
         width: 100%

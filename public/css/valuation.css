@@ -9,14 +9,25 @@
     font-weight: 500;
     font-family: "Mazzard", sans-serif;
 }
-.valuationContainer{
+.valuationSection{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.valuationContainer{
+    width: 75%;
     display: flex;
     justify-content: center;
     margin-top: 62px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 40px 24px -24px #EAEFF7;
+    padding-bottom: 50px;
 }
 .valuationContent{
-    width: 55%;
+    width: 65%;
     display: flex;
     justify-content: center;
     border-bottom-left-radius: 20px;

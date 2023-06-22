@@ -95,6 +95,7 @@
   }
     .competitionLeft{
         width: 100%;
+        box-shadow: 0px 40px 24px -24px #EAEFF7;
         padding: 0px;
     }
     .competitionRight{

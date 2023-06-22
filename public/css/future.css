@@ -1,5 +1,6 @@
 .futureSection{
     width: 100%;
+    position: relative;
 }
 .futureContent{
     width: 100%;
@@ -94,8 +95,21 @@
     font-family: "Poppins", sans-serif;
     color: white;
 }
+.elipseFutureSection{
+    width: 450px;
+    height: 450px;
+    background: #30d9d9;
+    position: absolute;
+    top: 830px;
+    right: 79px;
+    border-radius: 50%;
+    opacity: 30%;
+    filter: blur(65px);
+}
 @media screen and (max-width: 1200px) and (min-width: 768px){
-
+    .elipseFutureSection{
+        display: none;
+    }
 }
 @media screen and (max-width: 767px) and (min-width: 250px){
     .futureSection{
@@ -160,5 +174,8 @@
         align-items: center;
         width: 100%;
         text-align: center;
+    }
+    .elipseFutureSection{
+        display: none;
     }
 }

@@ -1,10 +1,15 @@
 .solutionSection{
-    margin-top: 120px;
     display: flex;
     justify-content: center;
+    position: relative;
+    margin-top: -120px;
 }
 .solutionContainer{
-    width: 60%;
+    width: 75%;
+    position: relative;
+    z-index: 6;
+    background: white;
+    box-shadow: 0px 40px 24px -24px #EAEFF7;
 }
 .titleContainerSolution{
     margin-top: 30px;
@@ -16,6 +21,7 @@
     font-weight: 500;
     font-family: "Mazzard", sans-serif;
 }
+
 .upperContainerSolution{
     display: flex;
     justify-content: space-between;
@@ -49,10 +55,14 @@
     align-items: center;
     column-gap: 25px;
 }
+.lowerLeftImagesSolution img{
+    width: 100%;
+}
 .lowerContainerSolution{
     display: flex;
     align-items: center;
-    column-gap: 100px;
+    justify-content: center;
+
 }
 
 .lowerLeftSolution{

@@ -3,6 +3,7 @@
     font-family: 'Poppins', sans-serif;
     color: #001343;
     font-weight: 600;
+    box-shadow: 0px 0px 24px -24px #EAEFF7;
 }
 .investTextContainer{
     margin-top: 120px;
@@ -32,10 +33,20 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sinfoniaLogoWhiteLineJoin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-top: 30px;
 }
 .joinContent{
     width: 75%;
     padding: 70px 62px;
+    box-shadow: 0px 40px 24px -24px #EAEFF7;
 }
 .joinItem{
     width: 300px;
@@ -56,7 +67,8 @@
 }
 .joinContentUpper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    column-gap: 50px;
 }
 .lowerJoinContainer{
     width: 100%;

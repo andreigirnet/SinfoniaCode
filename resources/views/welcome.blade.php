@@ -179,6 +179,9 @@
                         <div class="buttonPrimary" onclick="openPopUp()">Invest Now</div>
                     </div>
                 </div>
+                <div class="sinfoniaLogoWhiteLineJoin">
+                    <img src="{{asset('images/sinf.png')}}" alt="">
+                </div>
             </div>
         </section>
         <section class="revolutionSection">
@@ -241,13 +244,16 @@
                 </p>
                 <p class="problemsText"><a href="" class="textLink">Join Us</a> and be a part of the solution to the problems facing the crypto market today.</p>
             </div>
-            <div class="elipseProblems"></div>
+            <div class="sinfoniaLogoWhiteLineProb">
+                <img src="{{asset('images/sinf.png')}}" alt="">
+            </div>
         </section>
         <section class="solutionSection">
+            <div class="elipseProblems"></div>
                 <div class="solutionContainer">
                     <div class="investText">PROBLEMS & SOLUTIONS</div>
                     <div class="titleContainerSolution">
-                        <div class="lowerGradientTitle">Crypto Industry</div>
+                        <div class="lowerGradientTitle">Our Solution</div>
                     </div>
                 <div class="upperContainerSolution">
                     <div class="upperLeftSolution">
@@ -265,7 +271,6 @@
                     <div class="lowerLeftSolution">
                         <div class="lowerLeftImagesSolution">
                             <img src="{{asset('images/solutionIcons.png')}}" class="leftImgSolution" alt="">
-                            <img src="{{asset('images/group.png')}}" class="rightImgSolution" alt="">
                         </div>
                     </div>
                     <div class="lowerRightSolution">
@@ -283,6 +288,7 @@
             </div>
         </section>
         <section class="futureSection">
+            <div class="elipseFutureSection"></div>
             <div class="futureContainer">
                 <div class="investTextContainer">
                     <div class="investText">The Opportunity</div>
@@ -295,7 +301,7 @@
                     <div class="futureInnerContent">
                         <div class="badgeL">
                             <div class="leftBadge">
-                                <div class="elipseFuture"></div>
+                                <div class="elipseFutureRight"></div>
                                 <div class="futureInnerItem">
                                    <img src="{{asset('images/future1.png')}}" class="futureImg" alt="">
                                     <div class="rightInnerContentFuture">
@@ -515,13 +521,16 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="valuationInfoTextContainer">
-                <div class="valuationInfoText">
-                    To give the most value to our investors and our community, the Sinfonia Global Exchange seed round won’t incorporate inflated or any initial dilution metrics in the valuation equation.
-                    <br><br>
-                    Here, we used a 1:1 ratio for our valuation which means for every peso you invest will cost the same as the Shares you buy $1.000COP: $1.000COP. That means, if we raised $20.000.000.000COP and if that Investor “A” invests $2.000.000.000 COP, the company will be valued at $20.000.000.000COP, and the Investor “A” will own 10% of the company.
+                <div class="valuationInfoTextContainer">
+                    <div class="valuationInfoText">
+                        To give the most value to our investors and our community, the Sinfonia Global Exchange seed round won’t incorporate inflated or any initial dilution metrics in the valuation equation.
+                        <br><br>
+                        Here, we used a 1:1 ratio for our valuation which means for every peso you invest will cost the same as the Shares you buy $1.000COP: $1.000COP. That means, if we raised $20.000.000.000COP and if that Investor “A” invests $2.000.000.000 COP, the company will be valued at $20.000.000.000COP, and the Investor “A” will own 10% of the company.
+                    </div>
                 </div>
+            </div>
+            <div class="sinfoniaLogoWhiteLineJoin">
+                <img src="{{asset('images/sinf.png')}}" alt="">
             </div>
         </section>
         <section class="traditionSection">
@@ -562,6 +571,9 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="sinfoniaLogoWhiteLineJoin">
+                <img src="{{asset('images/sinf.png')}}" alt="">
             </div>
         </section>
         <section class="salarySection">
@@ -672,6 +684,9 @@
                     </div>
                 </div>
             </div>
+            <div class="sinfoniaLogoWhiteLineJoin">
+                <img src="{{asset('images/sinf.png')}}" alt="">
+            </div>
         </section>
         <section class="reasonsSection">
             <div class="reasonsElipse"></div>
@@ -766,6 +781,9 @@
                 <div class="revAction">
                     <div class="revButton" onclick="openPopUp()">Start Investing Now</div>
                 </div>
+            </div>
+            <div class="sinfoniaLogoWhiteLineJoin">
+                <img src="{{asset('images/sinf.png')}}" alt="">
             </div>
         </section>
         <section class="faqSection" id="faq">
