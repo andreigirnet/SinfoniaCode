@@ -3,6 +3,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background: white;
+    padding-top: 40px;
 }
 .footerContainer{
     width: 85%;

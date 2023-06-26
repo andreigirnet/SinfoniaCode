@@ -11,8 +11,6 @@
 .revolutionContainer{
     padding-top: 120px;
     padding-bottom: 120px;
-    position: relative;
-    z-index: 6;
 }
 .textContainer{
     margin-top: 60px;

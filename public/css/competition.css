@@ -23,6 +23,9 @@
     line-height: 55px;
     text-transform: uppercase;
     color: #001343;
+    width: 100px;
+    background: white;
+    box-shadow: 0px 0px 24px -24px #EAEFF6;
 }
 .competitionContainer{
     width: 100%;
@@ -30,6 +33,7 @@
 .competitionLeft{
     width: 50%;
     padding: 120px 135px;
+    background: white;
 }
 .competitionRight{
     width: 50%;
@@ -104,6 +108,10 @@
 
 }
 @media screen and (max-width: 767px) and (min-width: 250px){
+    .competitionSmallTitle{
+        width: 100%;
+        text-align: center;
+    }
   .competitionContainer{
       flex-direction: column;
       row-gap: 30px;

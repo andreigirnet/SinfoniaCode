@@ -73,6 +73,9 @@
     font-size: 14px;
     font-family: "Poppins", sans-serif;
 }
+.upperTitleReady{
+    margin-top: 30px;
+}
 @media screen and (max-width: 1200px) and (min-width: 768px){
 
 }
@@ -90,5 +93,9 @@
     }
     .readyText{
         width: 75%;
+    }
+    .upperTitleReady{
+        font-size: 35px;
+        margin-top: 20px;
     }
 }

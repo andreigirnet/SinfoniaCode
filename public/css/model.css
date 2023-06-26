@@ -38,6 +38,7 @@
     flex-direction: column;
     box-shadow: 0px 40px 24px -24px #EAEFF7;
     row-gap: 50px;
+    background: white;
 }
 .leftModel{
     display: flex;
@@ -53,6 +54,9 @@
 .modelText{
     width: 100%;
     font-family: 'Poppins', sans-serif;
+}
+.imgModelMobile{
+    display: none;
 }
 @media screen and (max-width: 1200px) and (min-width: 768px){
     .modelContainer{
@@ -87,8 +91,19 @@
     }
 }
 @media screen and (max-width: 767px) and (min-width: 250px){
+    .imgModelMobile{
+        display: flex;
+        position: relative;
+        width: 100%;
+        justify-content: end;
+        height: 200px;
+    }
+    .imgModelMobile img{
+        position: absolute;
+    }
     .leftModel{
         margin-top: 0;
+        align-items: center;
     }
     .modelContainer{
         width: 100%;
@@ -113,11 +128,14 @@
     }
     .modelItem{
         width: 80%;
-        padding: 10px 10px;
+        padding: 50px 20px;
     }
     .modelContainer{
         display: flex;
         flex-direction: column;
         row-gap: 30px;
+    }
+    .imgModel{
+        display: none;
     }
 }
