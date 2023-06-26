@@ -33,6 +33,11 @@
     <body>
         @include('mobileMenu')
         @include('investPopUp')
+        <div class="stripesContainer">
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+            <div class="stripe"></div>
+        </div>
         <section class="mainBanner">
             <div class="navBar">
                 <div class="logoLeft">
@@ -86,7 +91,7 @@
                     <a href="#faq" class="noDecLink"><div class="menuitem">Faq</div></a>
                     <a href="{{route('documents')}}" class="noDecLink">
                             <div class="menuitemDrop">
-                            <div class="menuItem">Documents</div>
+                            <div class="menuitem">Documents</div>
                             <div class="downArrow">
                                 <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4 4.5L0 0.5H8L4 4.5Z" fill="white"/>
@@ -382,13 +387,6 @@
                         </div>
                         <div class="modelItem">
                             <div class="modelItemTitle">
-                                <div class="futureTitleContent">Develop a cutting-edge crypto exchange platform</div>
-                                <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
-                            </div>
-                            <div class="modelText">Continuously outfit the cryptocurrency exchange platform with the latest financial infrastructure and solutions and the most profitable investment services and products in the industry. </div>
-                        </div>
-                        <div class="modelItem">
-                            <div class="modelItemTitle">
                                 <div class="futureTitleContent">Reinvest</div>
                                 <img src="{{asset('images/icons/pointGreen.png')}}" alt="">
                             </div>
@@ -420,7 +418,7 @@
         <section class="competitionSection">
             <div class="competitionContainer">
                 <div class="competitionLeft">
-                    <div class="investText">Our Model</div>
+                    <div class="competitionSmallTitle">challenges</div>
                     <div class="titleContainerCompetition">
                         <div class="lowerGradientTitle">Competitors</div>
                     </div>
@@ -644,7 +642,10 @@
                         </div>
                         <div class="warrantItem">
                             <div class="valuationTextRightItem">And You'd Have The Option To Invest</div>
-                            <div class="valuationLowerTextItem">$50.000.000COP</div>
+                            <div class="innerWarrantItem">
+                                <div class="valuationLowerTextItem">$50.000.000COP</div>
+                                <div class="blueLightText">(50%)</div>
+                            </div>
                         </div>
                         <div class="warrantItem">
                             <div class="valuationTextRightItem">At The Same</div>

@@ -10,11 +10,33 @@
     --darkBlue: #001343;
     --lightBlue: #30d9d9;
 }
+body{
+    background: #f7f9fc;
+    position: relative;
+    z-index: -3;
+}
+.stripesContainer{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    justify-content: space-around;
+}
+.stripe{
+    height: 100vh;
+    width: 1px;
+    background: black;
+    opacity: 0.1;
+}
 .title{
     font-family: 'Mazzard', sans-serif;
 }
 .smallText{
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 .buttonPrimary{
     padding: 16px 20px;
@@ -27,4 +49,5 @@
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: 700;
 }

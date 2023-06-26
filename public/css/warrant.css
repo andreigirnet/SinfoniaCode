@@ -5,7 +5,7 @@
     justify-content: center;
 }
 .warrantContainer{
-    width: 60%;
+    width: 90%;
 }
 .warrantContent{
     display: flex;
@@ -19,9 +19,20 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+    margin-top: 25px;
 }
 .warrantRight{
     width:45%;
+}
+.innerWarrantItem{
+    display: flex;
+    align-items: center;
+}
+.blueLightText{
+    font-size: 56px;
+    font-family: Mazzard, sans-serif;
+    font-weight: 700;
+    color: #30D9D9;
 }
 .noDecLink{
     text-decoration: none;
@@ -95,5 +106,12 @@
     }
     .buttonPrimaryWarrant{
         width: 90%;
+        font-size: 14px;
+    }
+    .warrantLeft{
+        margin-top: 0;
+    }
+    .blueLightText{
+        font-size: 28px;
     }
 }

@@ -44,6 +44,7 @@
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: 700;
 }
 .elipseMainBannerRev{
     width: 700px;

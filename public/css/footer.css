@@ -82,6 +82,9 @@
     font-size: 13px;
     opacity: 0.5;
 }
+.copyrightMobile{
+    display: none;
+}
 .lowerLogos{
     display: flex;
     column-gap: 20px;

@@ -68,7 +68,7 @@
 .joinContentUpper{
     display: flex;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 100px;
 }
 .lowerJoinContainer{
     width: 100%;
