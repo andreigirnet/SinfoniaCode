@@ -91,6 +91,14 @@
 .docTitleContainerMob{
     display: none;
 }
+.titleCeoDoc{
+    width: 100%;
+    justify-content: start;
+}
+.docLink{
+    text-decoration: none;
+    color: black;
+}
 @media screen and (max-width: 1200px) and (min-width: 768px){
 
 }
@@ -128,7 +136,6 @@
         display: flex;
         text-align: start;
         column-gap: 5px;
-        margin-left: 10px;
     }
     .docCeoContent{
         width: 100%;
@@ -145,5 +152,15 @@
     }
     .docItem{
         width: 90%;
+    }
+    .docCeoSubtitleMob{
+        width: 100px;
+        background: white;
+        padding: 10px;
+    }
+    .docTitleContainerMob{
+        width: 75%;
+        padding-left: 10px;
+        margin-top: 10px;
     }
 }

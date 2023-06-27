@@ -137,6 +137,9 @@
 .mobilePhone{
     display: none;
 }
+#menuImg{
+    display: none;
+}
 @media screen and (max-width: 1200px) and (min-width: 768px){
     .overflowImg{
         left: 50%;
@@ -226,5 +229,8 @@
     }
     .navButton{
         font-size: 13px;
+    }
+    #menuImg{
+        display: block;
     }
 }

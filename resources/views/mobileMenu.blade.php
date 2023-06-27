@@ -1,9 +1,9 @@
 <div class="mobileNavBackground" id="mobileMenu">
     <div class="mobileMenuContent">
-        <a href=""><div class="mobileMenuItem">problems & solutions</div></a>
-        <a href=""><div class="mobileMenuItem">our model</div></a>
-        <a href=""><div class="mobileMenuItem">faq</div></a>
-        <a href="">
+        <a href="#problem" class="mobNavButton"><div class="mobileMenuItem">problems & solutions</div></a>
+        <a href="#jumpModel" class="mobNavButton"><div class="mobileMenuItem">our model</div></a>
+        <a href="#faqJump" class="mobNavButton"><div class="mobileMenuItem">faq</div></a>
+        <a href="{{route('docs')}}">
             <div class="mobileMenuItem">
                 <div class="innerMobMenu">documents</div>
                 <img src="{{asset('images/arrows/downArrowWhite.png')}}"></img>

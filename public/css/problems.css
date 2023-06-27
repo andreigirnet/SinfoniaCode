@@ -17,6 +17,7 @@
 .problemsSection{
     position: relative;
     padding-bottom: 200px;
+    margin-top: 130px;
 }
 .problemsText{
     width: 74%;
@@ -60,6 +61,7 @@
 .textLink{
     font-weight: 600;
     color: var(--violet);
+    cursor: pointer;
 }
 .lastProblemItemRow{
     display: none;

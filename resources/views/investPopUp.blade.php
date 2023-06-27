@@ -29,27 +29,28 @@
             </div>
             <div class="popRight">
                 <div class="popRightTitle">Please enter your information below:</div>
-                <form action="" class="form">
+                <form action="{{route('send')}}" method="POST" class="form">
+                    @csrf
                     <div class="firstNameLastName">
                         <div class="inputContainer">
                             <img src="{{asset('images/icons/formIcon.png')}}" class="formIcon" alt="">
-                            <input type="text" name="firstName" class="formSmall" placeholder="First Name">
+                            <input type="text" name="firstName" class="formSmall" placeholder="First Name" required>
                         </div>
                         <div class="inputContainer">
                             <img src="{{asset('images/icons/formIcon.png')}}" class="formIcon" alt="">
-                            <input type="text" name="lastname" class="formSmall" placeholder="Last Name">
+                            <input type="text" name="lastname" class="formSmall" placeholder="Last Name" required>
                         </div>
                     </div>
                     <div class="emailContainer">
                         <img src="{{asset('images/icons/email.png')}}" class="formIcon" alt="">
-                        <input type="text" class="emailInput" placeholder="Email">
+                        <input type="email" class="emailInput" name="email" placeholder="Email" required>
                     </div>
-                    <div class="buttonPop">
+                    <button class="buttonPop" type="submit">
                         <div class="buttonPopText">Continue</div>
                         <div class="buttonPopArrow">
                             <img src="{{asset('images/arrows/rightSmallArrow.png')}}" alt="">
                         </div>
-                    </div>
+                    </button>
                 </form>
                 <div class="popUpInfo">
                     <img src="{{asset('images/icons/infoBlue.png')}}" alt="">

@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 50px;
+    margin-top: 200px;
 }
 .modelContainer{
     width: 90%;
